@@ -15,6 +15,8 @@ const (
 
 // Parse parses a formatted string and returns the time value it represents.
 //
+// Layout used:
+//	[-]YYYY-MM-DDThh:mm:ss[.fffffffff][Z|(+|-)hh:mm]
 // In the absence of a time zone indicator, Parse returns a time in UTC.
 func Parse(value string) (time.Time, error) {
 

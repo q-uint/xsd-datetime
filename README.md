@@ -1,5 +1,5 @@
 # xsd:dateTime
-
+[![](https://godoc.org/github.com/di-wu/xsd-datetime?status.svg)](http://godoc.org/github.com/di-wu/xsd-datetime)
 ## Description
 **xsd:dateTime** describes instances identified by the combination of a date and a time. 
 Its value space is described as a combination of date and time of day in *Chapter 5.4 of ISO 8601*. 
